@@ -58,6 +58,12 @@ Results saved to: results/startup-names-1709500000000.txt
 - Node.js 18+
 - Namecheap API credentials
 
+## Built with AI
+
+This project is part of the [Built with AI](https://builtwithai.com/open-source) open source collection — free tools built by the AI builder community.
+
+**[Join the community →](https://builtwithai.com/apply)**
+
 ## License
 
 MIT
