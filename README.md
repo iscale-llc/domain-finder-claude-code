@@ -36,7 +36,23 @@ This tool is built to pair with [Claude Code](https://docs.anthropic.com/en/docs
 2. Run `check-domains.mjs` in batches
 3. Iterate on themes until you find the right name
 
-Just open Claude Code in this directory and describe what you're building. See more [AI-powered open source tools](https://www.builtwithai.com/open-source).
+Just open Claude Code in this directory and describe what you're building.
+
+### Search Strategies
+
+Claude uses 9 search strategies to find available domains:
+
+1. **Direct Compound** — core concept + action words (`leadzap`, `routefire`)
+2. **Prefix/Suffix Modifier** — SaaS patterns (`get___`, `___hq`, `___ai`)
+3. **Portmanteau / Embedded Word** — hide the business word inside a made-up word (`leadgacy` = legacy, `remonaissance` = renaissance)
+4. **Double Meaning / Innuendo** — words with a cheeky second read (`hothandoff`, `matchivate`)
+5. **Synonym Rotation** — swap core concept for synonyms, re-run other strategies
+6. **Character / Personality** — give the brand a persona (`routerogue`, `routepirate`)
+7. **Creative Misspelling** — alt spellings, Flickr-style truncation (`remonetizr`, `squalifai`)
+8. **Science / Element Style** — periodic table vibes (`qualifium`, `pulsadium`)
+9. **Synonym Mashup** — portmanteau from routing/tracking synonyms (`relayvant`, `surgevate`)
+
+Results are presented in tiered tables (Top Tier, Strong, Sleepers) with rationale. See `CLAUDE.md` for full details.
 
 ## Example
 
