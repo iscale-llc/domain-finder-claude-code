@@ -2,6 +2,8 @@
 
 Interactive domain name brainstorming tool designed for use with Claude Code. Describe your business idea, get brandable domain suggestions, and instantly check .com availability via the Namecheap API.
 
+Featured on [Built with AI](https://www.builtwithai.com/open-source).
+
 ## Setup
 
 1. Get API access from [Namecheap](https://www.namecheap.com/support/api/intro/) (requires account with $50+ spend or 20+ domains)
@@ -34,7 +36,7 @@ This tool is built to pair with [Claude Code](https://docs.anthropic.com/en/docs
 2. Run `check-domains.mjs` in batches
 3. Iterate on themes until you find the right name
 
-Just open Claude Code in this directory and describe what you're building.
+Just open Claude Code in this directory and describe what you're building. See more [AI-powered open source tools](https://www.builtwithai.com/open-source).
 
 ## Example
 
